@@ -23,7 +23,7 @@ RUN mvn install
 
 # Download, build BenchmarkJava
 WORKDIR /owasp
-RUN git clone https://github.com/OWASP-Benchmark/BenchmarkJava
+RUN git clone https://github.com/Anup-Ash/BenchmarkJava.git
 
 # Workaround for security fix for CVE-2022-24765
 RUN git config --global --add safe.directory /owasp/BenchmarkJava
